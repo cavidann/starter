@@ -26,5 +26,25 @@ $(document).ready(function(){
             }
         }
     })
+    $('.clients-slide').owlCarousel({
+        items:1,        
+        loop:true,
+        nav:true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
+    $('.owl-prev span').html('<i class="fa fa-long-arrow-left" aria-hidden="true"></i>');
+    $('.owl-next span').html('<i class="fa fa-long-arrow-right" aria-hidden="true"></i>')
   });
  

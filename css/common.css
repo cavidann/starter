@@ -13,14 +13,19 @@ a:hover, a:focus {
 
 .button {
   color: #ffffff;
-  background-color: #00aeef;
+  background-color: #00acec;
   font-size: 14px;
-  font-weight: 400;
   text-transform: uppercase;
-  padding: 15px 20px; }
+  padding: 15px 20px;
+  border: 1px solid #00acec;
+  font-weight: 700;
+  border-radius: 4px; }
   .button:hover, .button:focus {
     text-decoration: none;
-    outline: 0px; }
+    outline: 0px;
+    color: white;
+    background: #027EAC;
+    border-color: #027EAC; }
 
 .section_header {
   width: 100%;
@@ -391,5 +396,186 @@ a:hover, a:focus {
     opacity: 0.7; }
     .team .item:hover .icons .center {
       top: 50%; }
+
+.clients {
+  margin-top: 120px;
+  margin-bottom: 120px; }
+  .clients .col-md-2 {
+    width: 20% !important; }
+  .clients .margin {
+    margin-top: 80px; }
+  .clients .clients-slide .owl-dots {
+    display: none !important; }
+  .clients .owl-next, .clients .owl-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px !important;
+    color: #e1e1e1 !important; }
+    .clients .owl-next:hover, .clients .owl-prev:hover {
+      background: transparent !important;
+      outline: 0px !important; }
+  .clients .owl-next {
+    right: 0px; }
+  .clients .owl-prev {
+    left: 0px; }
+  .clients .item {
+    position: relative; }
+    .clients .item .content {
+      text-align: center;
+      width: 60%;
+      margin: auto; }
+      .clients .item .content div {
+        margin-top: 50px;
+        font-size: 21px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 28px;
+        font-family: 'Raleway';
+        color: #999; }
+      .clients .item .content h3 {
+        margin-top: 40px;
+        margin-bottom: 0;
+        font-size: 18px;
+        color: #000;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 700;
+        line-height: 28px; }
+      .clients .item .content img {
+        width: 120px !important;
+        display: inline-block;
+        padding: auto;
+        border-radius: 50%; }
+      .clients .item .content .profession {
+        margin-top: 0px;
+        font-size: 14px;
+        color: gray;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 35px; }
+      .clients .item .content i {
+        font-size: 30px;
+        font-family: "FontAwesome";
+        color: #00aeef;
+        text-transform: uppercase; }
+
+.get-start {
+  background: url(../img/get-start.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 120px; }
+  .get-start h2 {
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 20px;
+    font-family: "Lato"; }
+  .get-start div {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px; }
+  .get-start .button {
+    color: white;
+    background: transparent;
+    border-color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 2px 2px 2px 2px;
+    padding: 15px 50px 15px 50px;
+    transition: .3s; }
+    .get-start .button:hover {
+      background: #00acec;
+      border-color: #00acec; }
+
+input, textarea {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  border-radius: 4px; }
+
+.contact {
+  padding-top: 120px;
+  padding-bottom: 120px; }
+  .contact input {
+    width: 46%; }
+  .contact textarea {
+    width: 95.5%; }
+  .contact .button {
+    margin-right: 20px;
+    float: right; }
+
+.map {
+  position: relative; }
+  .map iframe {
+    width: 100%;
+    height: 650px; }
+  .map .contact-info {
+    position: absolute;
+    top: 18%;
+    left: 15%;
+    background: white;
+    padding: 60px 70px;
+    z-index: 1; }
+    .map .contact-info .contact-map {
+      padding: 20px inherit; }
+      .map .contact-info .contact-map strong {
+        text-transform: uppercase; }
+        .map .contact-info .contact-map strong:after {
+          margin: 5px 0;
+          margin-bottom: 10px;
+          display: block;
+          width: 25px;
+          border-bottom: 1px solid;
+          text-align: left;
+          content: ''; }
+
+.footer-wrapper {
+  padding-bottom: 80px;
+  padding-top: 100px;
+  background: #1f1f1f;
+  text-align: center; }
+  .footer-wrapper h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 80px; }
+  .footer-wrapper input {
+    width: 50%;
+    background: #191919; }
+  .footer-wrapper .input {
+    width: 100%; }
+  .footer-wrapper .button {
+    width: 100%;
+    padding: 15px 40px; }
+
+.footer {
+  background: #1f1f1f; }
+  .footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: -30px; }
+    .footer ul li {
+      padding-bottom: 40px;
+      padding-top: 40px;
+      color: white; }
+      .footer ul li i {
+        padding: 10px;
+        color: #00acec;
+        cursor: pointer; }
+  .footer .line {
+    height: 1px;
+    background: #474747 !important; }
 
 /*# sourceMappingURL=common.css.map */
