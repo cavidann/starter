@@ -92,20 +92,17 @@ a:hover, a:focus {
       top: 50%;
       transform: translateY(-50%); }
       .menu-section .container .menu ul li {
-        padding-left: 40px;
-        display: inline-block; }
-        .menu-section .container .menu ul li a {
-          text-transform: uppercase;
-          letter-spacing: 1px;
-          padding: 15px 0;
-          font-size: 14px;
-          font-family: 'Lato';
-          font-weight: 400;
-          line-height: 24px;
-          color: #808080; }
-          .menu-section .container .menu ul li a:hover, .menu-section .container .menu ul li a:focus {
-            text-decoration: none;
-            outline: 0px; }
+        cursor: pointer;
+        margin-left: 40px;
+        display: inline-block;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 15px 0;
+        font-size: 14px;
+        font-family: 'Lato';
+        font-weight: 400;
+        line-height: 24px;
+        color: #808080; }
 
 .slider-section {
   margin-top: 80px; }

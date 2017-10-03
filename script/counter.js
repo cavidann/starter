@@ -3,7 +3,7 @@
 
   $(window).scroll(function () {
     scroll = $(window).scrollTop();
-    console.log(scroll)
+    // console.log(scroll)
     if (scroll >= 2200) {
         $('.counter').each(function() {
             var $this = $(this),
