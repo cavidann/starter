@@ -1,6 +1,3 @@
-
-
-
   $(window).scroll(function () {
     scroll = $(window).scrollTop();
     // console.log(scroll)
@@ -24,11 +21,7 @@
                 $this.text(this.countNum);
                 //alert('finished');
               }
-          
             });  
-        
-            
-          
           });
     } 
 });

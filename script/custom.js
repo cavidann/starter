@@ -53,8 +53,6 @@ $(document).ready(function () {
         var scroll_number = $(this).attr("scroll");
         var scroll_position = $("section[scroll=" + scroll_number + "]").offset().top;
 
-        // $(this).css({ "color": "#00acec" });
-        // $(this).siblings().css({ "color": "grey" });
         $('html, body').animate({ scrollTop: scroll_position }, "slow")
         return false;
     })
@@ -70,12 +68,12 @@ $(document).ready(function () {
             if (scroll >= scroll_position-10) {
                 $("li[scroll="+i+"]").css({ "color": "#00acec" });
                 $("li[scroll="+i+"]").siblings().css({ "color": "grey" });
-        
             }
         }
-
     });
     // change menu item color when scroll ends
-
+    $(".fa-bars").click(function(){
+        $(".menu ul").toggle("slow");
+    })
 });
 

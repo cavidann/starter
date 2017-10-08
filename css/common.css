@@ -84,6 +84,12 @@ a:hover, a:focus {
   z-index: 999; }
   .menu-section .container {
     position: relative; }
+    .menu-section .container .menu .fa-bars {
+      display: none;
+      font-size: 30px;
+      float: right;
+      margin-top: 10px;
+      color: #00acec; }
     .menu-section .container .menu img {
       padding: 10px 0; }
     .menu-section .container .menu ul {
@@ -238,6 +244,7 @@ a:hover, a:focus {
     font-weight: 100;
     text-align: center;
     margin-bottom: 45px;
+    margin-top: 45px;
     line-height: 40px; }
   .counter_section h4 {
     color: #ffffff;
@@ -397,8 +404,8 @@ a:hover, a:focus {
 .clients {
   margin-top: 120px;
   margin-bottom: 120px; }
-  .clients .col-md-2 {
-    width: 20% !important; }
+  .clients img {
+    width: 100%; }
   .clients .margin {
     margin-top: 80px; }
   .clients .clients-slide .owl-dots {
@@ -505,6 +512,9 @@ input, textarea {
 .contact {
   padding-top: 120px;
   padding-bottom: 120px; }
+  .contact .inputs {
+    width: 60%;
+    margin: 0 auto; }
   .contact input {
     width: 46%; }
   .contact textarea {
@@ -574,5 +584,67 @@ input, textarea {
   .footer .line {
     height: 1px;
     background: #474747 !important; }
+
+@media only screen and (max-width: 991px) {
+  .menu-section .menu .fa-bars {
+    display: block !important; }
+  .menu-section .menu ul {
+    display: none;
+    overflow: hidden;
+    position: static !important;
+    transform: translateY(0%) !important; }
+    .menu-section .menu ul li {
+      margin-left: -28px !important;
+      display: block !important; }
+
+  .section_h3 {
+    padding-right: 12px;
+    padding-left: 12px; }
+
+  .services-section i {
+    margin-left: -10px; }
+
+  .works a {
+    width: 33%; }
+    .works a img {
+      height: 280px; }
+
+  .why-us .type {
+    margin-top: -24px; }
+
+  .contact .inputs {
+    width: 93%; } }
+@media only screen and (max-width: 780px) {
+  .works a img {
+    height: 242px; } }
+@media only screen and (max-width: 600px) {
+  .works a {
+    width: 100%; }
+    .works a img {
+      height: 500px; }
+
+  .contact input {
+    width: 95.5%; }
+
+  .footer ul {
+    display: block;
+    text-align: center; }
+    .footer ul li {
+      padding-bottom: 5px;
+      padding-top: 5px; } }
+@media only screen and (max-width: 407px) {
+  .services-section .col-xs-11 {
+    width: 79.66667% !important; }
+  .services-section .col-xs-1 {
+    padding-right: 39px !important; }
+
+  .works a {
+    width: 100%; }
+    .works a img {
+      height: 320px; }
+
+  .thin-header {
+    margin-top: 25px !important;
+    line-height: 27px; } }
 
 /*# sourceMappingURL=common.css.map */
