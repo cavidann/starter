@@ -453,7 +453,10 @@ a{
         cursor: pointer;
     }
 }
-
+.works .modal .modal_inner img {
+    margin: auto;
+    width: 100%;
+}
 .why-us{
     padding-top: 120px;
     .content{
