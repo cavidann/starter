@@ -75,5 +75,8 @@ $(document).ready(function () {
     $(".fa-bars").click(function(){
         $(".menu ul").toggle("slow");
     })
+    setTimeout(function(){ 
+        $("#loading").fadeOut()
+    }, 1000);
 });
 
