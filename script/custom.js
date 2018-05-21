@@ -1,3 +1,7 @@
+$(window).on("load", function () {
+
+    $("#loading").fadeOut(1000)
+})
 $(document).ready(function () {
     //owl carousel starts
     $('.one-slide').owlCarousel({
@@ -75,8 +79,5 @@ $(document).ready(function () {
     $(".fa-bars").click(function(){
         $(".menu ul").toggle("slow");
     })
-    setTimeout(function(){ 
-        $("#loading").fadeOut()
-    }, 1000);
 });
 
